@@ -1,0 +1,32 @@
+.tests-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* This creates 4 equal columns */
+    gap: 16px; /* Adjust as needed for spacing between items */
+    padding: 16px; /* Optional: Add padding around the grid */
+}
+
+
+.test-item {
+    width: 100%; /* Make sure the item takes the full width of the grid column */
+    max-width: 250px; /* This ensures the item doesn't grow too big; adjust as needed */
+    height: auto; /* Adjust based on your content */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Add a subtle shadow */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Hide overflowing content like images */
+}
+
+.test-item img {
+    width: 100%;
+    height: auto; /* Maintain image aspect ratio */
+}
+
+.app-header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
